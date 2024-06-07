@@ -1,0 +1,82 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+code {
+  color: #e01a76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+
+body {
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.input-group .form-control {
+  border-radius: 0.25rem;
+}
+
+.input-group .btn-primary {
+  border-radius: 0 0.25rem 0.25rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.input-group .btn-primary i {
+  margin-left: 5px;
+}
+
+.accordion-button {
+  display: flex;
+  align-items: center;
+}
+
+.accordion-button .text-danger {
+  margin-right: 10px;
+}
+
+.accordion-button .description {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: calc(100% - 100px);
+  /* Adjust based on your needs */
+}
+
+.accordion-body .btn-secondary {
+  display: flex;
+  align-items: center;
+}
+
+.accordion-body .btn-secondary i {
+  margin-right: 5px;
+}
+
+.alert-success {
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.alert-success i {
+  margin-right: 5px;
+}
